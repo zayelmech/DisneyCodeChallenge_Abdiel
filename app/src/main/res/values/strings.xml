@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DisneyCodeChallenge_Abdiel</string>
+    <string name="reservations_alert">At least one Guest in the party must have a reservation. Guest without reservations must remain in the same booking party in order to enter.</string>
+    <string name="continue_alert">Select at least one Guest that has a reservation to continue.</string>
+    <string name="continue_btn_txt">Continue</string>
+</resources>

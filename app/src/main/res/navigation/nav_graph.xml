@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/guestFragment">
+
+    <fragment
+        android:id="@+id/guestFragment"
+        android:name="com.imecatro.disneycodechallenge_abdiel.ui.views.GuestFragment"
+        android:label="Select Guests"
+        tools:layout="@layout/fragment_item_list">
+        <action
+            android:id="@+id/action_guestFragment_to_confirmationFragment"
+            app:destination="@id/confirmationFragment" />
+        <action
+            android:id="@+id/action_guestFragment_to_conflict_page"
+            app:destination="@id/conflict_page" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="com.imecatro.disneycodechallenge_abdiel.ui.views.ConfirmationFragment"
+        android:label="Confirmation Screen"
+        tools:layout="@layout/fragment_confirmation" />
+    <fragment
+        android:id="@+id/conflict_page"
+        android:name="com.imecatro.disneycodechallenge_abdiel.ui.views.ConflictPageFragment"
+        android:label="Conflict Screen"
+        tools:layout="@layout/fragment_conflict_page" />
+
+</navigation>
