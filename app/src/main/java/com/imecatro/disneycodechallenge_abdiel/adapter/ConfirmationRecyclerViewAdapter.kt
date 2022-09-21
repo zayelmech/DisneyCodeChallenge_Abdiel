@@ -28,7 +28,7 @@ class ConfirmationRecyclerViewAdapter(
         val item = values[position]
         holder.checkBoxView.isChecked = item.guestCheck
         holder.guestName.text = item.guestName
-        
+
     }
 
     override fun getItemCount(): Int = values.size

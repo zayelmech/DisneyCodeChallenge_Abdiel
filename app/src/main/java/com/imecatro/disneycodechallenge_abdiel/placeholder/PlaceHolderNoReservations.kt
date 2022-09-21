@@ -42,9 +42,7 @@ object PlaceHolderNoReservations {
     private fun makeDetails(position: Int): String {
         val builder = StringBuilder()
         builder.append("Number ").append(position)
-//        for (i in 0..position - 1) {
-//            builder.append("\nMore details information here.")
-//        }
+
         return builder.toString()
     }
 

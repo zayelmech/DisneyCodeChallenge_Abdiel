@@ -35,7 +35,7 @@ class ConfirmationFragment : Fragment() {
             )
             adapter = ConfirmationRecyclerViewAdapter(viewModel.guestWithReservation)
         }
-        activity?.title = "Confirmation Screen";  // provide compatibility to all the versions
+        activity?.title = "Confirmation Screen"
 
         return binding.root
     }
